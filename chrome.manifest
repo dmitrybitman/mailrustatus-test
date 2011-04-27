@@ -1,0 +1,6 @@
+content   mailrustatus                 chrome/content/
+skin      mailrustatus   classic/1.0   chrome/skin/
+locale    mailrustatus   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://mailrustatus/content/ff-overlay.xul

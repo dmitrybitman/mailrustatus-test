@@ -1,0 +1,22 @@
+/* This is just an example.  You shouldn't do this. */
+#mailrustatus-toolbar-button
+{
+  list-style-image: url("chrome://mailrustatus/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+[iconsize="small"] #LikeJournal-toolbar-button
+{
+  list-style-image: url("chrome://mailrustatus/skin/icon16.png");
+}
+#mailrustatus-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #mailrustatus-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #mailrustatus-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
